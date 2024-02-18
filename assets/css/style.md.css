@@ -1,0 +1,63 @@
+/*———————————————————————————*\
+   #TAB SCREEN CSS
+\*———————————————————————————*/
+@media screen and (max-width: 1024px) and (min-width: 768px) {
+  .from-container {
+    max-width: 100%;
+  }
+  .page__container {
+    margin-left: 0px;
+  }
+  .custom__p.w-200 {
+    width: 50%;
+  }
+  .menu-icon-box {
+    display: block;
+    transition: var(--transition-2);
+  }
+  .menu-icon {
+    font-size: 30px;
+    color: var(--blue);
+  }
+  .flex-A-center {
+    justify-items: center;
+  }
+  .job-list__box {
+    width: 100%;
+  }
+  .md__center {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .md__wrap {
+    flex-wrap: wrap;
+  }
+  .profile-from {
+    padding: 70px 40px;
+  }
+  .w-200 {
+    width: 100px;
+  }
+  .w-50 {
+    width: 100%;
+  }
+  .footer-link-container {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .header__container {
+    margin-left: 0;
+    padding: 0px 20px 0px 20px;
+  }
+  .sidebar {
+    position: fixed;
+    width: 150px;
+    left: 0;
+    top: 0px;
+  }
+  .sidebar.close {
+    width: 0;
+    opacity: 0;
+  }
+}

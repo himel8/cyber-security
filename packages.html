@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--
+       - primary meta tags
+    -->
+    <title>Road2Cyber - Cyber securites App</title>
+    <meta name="title" content="Road2Cyber - Cyber securites App" />
+    <meta
+      name="description"
+      content="Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repudiandae non ab quidem."
+    />
+
+    <!--
+       - favicon
+    -->
+    <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml" />
+
+    <!--
+       - font link
+    -->
+    <link
+      href="https://fonts.cdnfonts.com/css/helvetica-neue-55"
+      rel="stylesheet"
+    />
+
+    <!--
+       - custom css link
+    -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="./assets/css/style.md.css" />
+    <link rel="stylesheet" href="./assets/css/style.sm.css" />
+
+    <!--
+       - preload images
+    -->
+  </head>
+  <body>
+    <!--
+     - #PRELOADER
+    -->
+    <div class="preload" data-preaload>
+      <div class="circle"></div>
+      <div class="text">Road 2 Cyber</div>
+    </div>
+
+    <!--
+       - #TOPBAR
+    -->
+    <header class="flex-between topbar header__container">
+      <div class="logo">
+        <a href="/"
+          ><img
+            src="./assets/images/logo/Road2Cyber horizontal logo.png"
+            alt="logo"
+            class="custom-img"
+        /></a>
+      </div>
+      <div class="flex-between gap20 sm-hidden">
+        <p class="custom__p">Public Website</p>
+        <div class="flex-between gap5">
+          <div class="user-logo">
+            <img
+              src="./assets/images/person.png"
+              alt="user"
+              class="custom-img"
+            />
+          </div>
+          <ion-icon name="chevron-down-outline" class="custom__p"></ion-icon>
+        </div>
+      </div>
+      <div class="menu-icon-box">
+        <ion-icon
+          name="menu-outline"
+          class="menu-icon toggle"
+          id="myIcon"
+        ></ion-icon>
+      </div>
+    </header>
+    <div class="main-container">
+      <nav class="sidebar close">
+        <div class="menu-bar">
+          <div class="menu">
+            <ul class="menu-links">
+              <li class="nav-link" data-page="home">
+                <a href="/index.html">
+                  <img
+                    src="./assets//images/svg/dashboard.svg"
+                    alt="dashboard-icon"
+                  />
+                  <span class="menu-text">Dashboard</span>
+                </a>
+              </li>
+              <li class="nav-link" data-page="profile">
+                <a href="/editprofile.html">
+                  <img
+                    src="./assets//images/svg/person.svg"
+                    alt="person-icon"
+                  />
+                  <span class="menu-text">Profile</span>
+                </a>
+              </li>
+              <li class="nav-link" data-page="training">
+                <a href="/trainings.html">
+                  <img
+                    src="./assets//images/svg/trainings.svg"
+                    alt="trainings-icon"
+                  />
+                  <span class="menu-text">Trainings</span>
+                </a>
+              </li>
+              <li class="nav-link" data-page="jobs">
+                <a href="/jobs.html">
+                  <img src="./assets//images/svg/jobs.svg" alt="jobs-icon" />
+                  <span class="menu-text">Jobs</span>
+                </a>
+              </li>
+              <li class="nav-link" data-page="talentpool">
+                <a href="/talentpool.html">
+                  <img
+                    src="./assets//images/svg/talent.svg"
+                    alt="talent-icon"
+                  />
+                  <span class="menu-text">Talent Pool</span>
+                </a>
+              </li>
+              <li class="nav-link" data-page="package">
+                <a href="/packages.html">
+                  <img
+                    src="./assets//images/svg/packages.svg"
+                    alt="packages-icon"
+                  />
+                  <span class="menu-text">Packages</span>
+                </a>
+              </li>
+              <li class="nav-link" data-page="contact">
+                <a href="/contact.html">
+                  <img
+                    src="./assets//images/svg/contact.svg"
+                    alt="contact-icon"
+                  />
+                  <span class="menu-text">Contact</span>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <div class="full-width">
+        <!--
+       - #HERO
+    -->
+        <section class="hero flex-between container flex-wrap gap20">
+          <div class="flex-between gap20">
+            <div class="hero-user-logo">
+              <img
+                src="./assets/images/person.png"
+                alt="user"
+                class="custom-img"
+              />
+            </div>
+            <div>
+              <h2 class="custom__h1">Giulia Sobinni</h2>
+              <p class="custom__h6 pt20 pb10">Dell</p>
+              <a href="editprofile.html"
+                ><p class="custom__p custom__underline">Edit profile</p></a
+              >
+            </div>
+          </div>
+          <div>
+            <p class="custom__h6">Plus Package</p>
+            <p class="custom__p">
+              8 out of 10 jobs available<br />
+              8 out of 10 trainings available<br />
+              7 out of 10 profiles available to contact
+            </p>
+            <a href="#"
+              ><p class="custom__p custom__underline pt20">
+                Upgrade your plan
+              </p></a
+            >
+          </div>
+          <div class="custom__input">
+            <ion-icon
+              name="search-outline"
+              class="input__icon custom__p"
+            ></ion-icon>
+            <input
+              type="text"
+              placeholder="Search in Talent Pool"
+              class="custom__h6"
+            />
+          </div>
+        </section>
+
+        <!--
+       - #Packages
+    -->
+        <section class="package-section container">
+          <div class="flex-between-end section-line flex-wrap gap20">
+            <h2 class="custom__h1">Your package</h2>
+            <p class="custom__p">Expires on 7 July 2024</p>
+          </div>
+
+          <div class="flex gap40 list-container flex-wrap">
+            <!-- Packages list -->
+
+            <div class="package__container">
+              <div class="package__box">
+                <div class="package__top-box">
+                  <h2 class="custom__h1 pb10 text-white">Plus</h2>
+                  <p class="custom__p text-white">For mid size companies</p>
+                </div>
+                <div class="package__bottom-box">
+                  <div class="custom__btn-box">
+                    <button class="custom-btn custom__p open-btn">
+                      Your Package
+                    </button>
+                  </div>
+                  <p>20 Jobs postings</p>
+                  <p>20 Training postings</p>
+                  <p>Talent Pool access</p>
+                  <p>20 People to contact</p>
+                  <a href="#!"
+                    ><h6 class="custom__p pt20 pb20 text-center">
+                      See all features
+                    </h6></a
+                  >
+                </div>
+              </div>
+            </div>
+
+            <!-- Search in  Packages -->
+            <a href="#!"
+              ><div class="add-job__box">
+                <h6 class="custom__h6 pb20 text-center">
+                  Upgrade <br />
+                  Your Package
+                </h6>
+                <img src="./assets/images/svg/plus.svg" alt="" /></div
+            ></a>
+          </div>
+
+          <!--
+       - #Features Plus 
+    -->
+          <div class="flex-between-end section-line pt70">
+            <h2 class="custom__h1">Features Plus</h2>
+          </div>
+          <div class="flex-between section-line pt10">
+            <p class="custom__bold-p">Package price</p>
+            <p class="custom__bold-p text-center w-200">
+              557€/m<br />
+              473€/y
+            </p>
+          </div>
+          <div class="flex-between section-line pt10">
+            <p class="custom__bold-p">Number job postings</p>
+            <p class="custom__bold-p text-center w-200">20</p>
+          </div>
+          <div class="flex-between section-line pt10">
+            <p class="custom__bold-p">
+              Number of trainings (including cyber ranges)
+            </p>
+            <p class="custom__bold-p text-center w-200">20</p>
+          </div>
+          <div class="flex-between section-line pt10">
+            <p class="custom__bold-p">Access to the Talent Pool</p>
+            <p class="custom__bold-p text-center w-200">√</p>
+          </div>
+          <div class="flex-between section-line pt10">
+            <p class="custom__bold-p">Number of people you can contact</p>
+            <p class="custom__bold-p text-center w-200">20</p>
+          </div>
+          <div class="flex-between section-line pt10">
+            <p class="custom__bold-p">See job postings</p>
+            <p class="custom__bold-p text-center w-200">√</p>
+          </div>
+          <div class="flex-between section-line pt10">
+            <p class="custom__bold-p">
+              Access for recruiters to The European HR community
+            </p>
+            <p class="custom__bold-p text-center w-200">√</p>
+          </div>
+          <div class="flex-between section-line pt10">
+            <p class="custom__bold-p">Access to other resources</p>
+            <p class="custom__bold-p text-center w-200">√</p>
+          </div>
+          <div class="flex-between section-line pt10">
+            <p class="custom__bold-p">
+              Extra visibility/promotion of job postings
+            </p>
+            <p class="custom__bold-p text-center w-200">√</p>
+          </div>
+          <div class="flex-between section-line pt10">
+            <p class="custom__bold-p">Cyber ranges procurement support</p>
+            <p class="custom__bold-p text-center w-200">√</p>
+          </div>
+          <div class="flex-between section-line pt10">
+            <p class="custom__bold-p">Access to other W4C Activities</p>
+            <p class="custom__bold-p text-center w-200">√</p>
+          </div>
+          <div class="flex-between section-line pt10">
+            <p class="custom__bold-p">Contributions to the R2C Resources Hub</p>
+            <p class="custom__bold-p text-center w-200">√</p>
+          </div>
+          <div class="flex-between section-line pt10">
+            <p class="custom__bold-p">
+              Access to other ECSO Activities <br />(Youth4Cyber, Policy Task
+              Force, CISO Community, <br />ECSO’s initiatives for SMEs)
+            </p>
+            <p class="custom__bold-p text-center w-200">√</p>
+          </div>
+        </section>
+
+        <!-- banner -->
+
+        <section class="container">
+          <div class="package-banner flex-A-center flex-wrap-reverse">
+            <div class="w-50">
+              <div class="package-banner-text">
+                <h6 class="custom__regular-h6 pb20">An ECSO Initiative</h6>
+                <h2 class="custom__h1 pb30">
+                  Join for free<br />
+                  the European<br />
+                  HR Community
+                </h2>
+                <p class="custom__p pb20 w-200">
+                  Contribute to a group of peers, share your experience and
+                  become an ambassador of ECSO’s initiatives for skills.
+                </p>
+                <button class="transparent-btn mt10">
+                  Go to the European HR Community
+                </button>
+              </div>
+            </div>
+            <div class="w-50">
+              <div class="package-banner-logo">
+                <img
+                  src="./assets/images/HR-community.png"
+                  alt="training2"
+                  class="custom-img"
+                />
+              </div>
+            </div>
+          </div>
+        </section>
+        <!--
+     - #Subscribe
+  -->
+        <section class="container">
+          <div class="subscribe-section">
+            <h6 class="custom__h6">
+              Stay tuned with the latest trainings and jobs with Road 2 Cyber
+              newsletter
+            </h6>
+            <button class="custom-btn custom__p subs-btn">Subscribe</button>
+          </div>
+        </section>
+
+        <!--
+- #footer
+-->
+        <footer class="container">
+          <div class="footer-link-container">
+            <div class="footer-logo">
+              <img
+                src="./assets/images/logo/Road2Cyber-main-logo.png"
+                alt="footer-logo"
+                class="custom-img"
+              />
+            </div>
+            <div>
+              <a href="#!">
+                <p class="custom__p font-bold">Road 2 Cyber</p>
+              </a>
+              <a href="#!">
+                <p class="custom__p">About Road 2 Cyber</p>
+              </a>
+              <a href="#!">
+                <p class="custom__p">Packages</p>
+              </a>
+              <a href="#!">
+                <p class="custom__p">FAQ</p>
+              </a>
+            </div>
+            <div>
+              <a href="#!">
+                <p class="custom__p font-bold">Trainings in Cyber</p>
+              </a>
+              <a href="#!">
+                <p class="custom__p">Find a training</p>
+              </a>
+              <a href="#!">
+                <p class="custom__p">Post a training</p>
+              </a>
+              <a href="#!">
+                <p class="custom__p">Cyber Ranges</p>
+              </a>
+              <a href="#!">
+                <p class="custom__p">Youth 4 Cyber</p>
+              </a>
+            </div>
+            <div>
+              <a href="#!">
+                <p class="custom__p font-bold">Jobs in Cyber</p>
+              </a>
+              <a href="#!">
+                <p class="custom__p">Find a job</p>
+              </a>
+              <a href="#!">
+                <p class="custom__p">Post a job</p>
+              </a>
+              <a href="#!">
+                <p class="custom__p">Talent pool</p>
+              </a>
+              <a href="#!">
+                <p class="custom__p">Create your profile</p>
+              </a>
+            </div>
+            <div>
+              <a href="#!">
+                <p class="custom__p font-bold">Improve your skills</p>
+              </a>
+              <a href="#!">
+                <p class="custom__p">Resources</p>
+              </a>
+              <a href="#!">
+                <p class="custom__p">Mentorship</p>
+              </a>
+              <a href="#!">
+                <p class="custom__p">Career paths</p>
+              </a>
+            </div>
+          </div>
+          <p class="custom__p font-bold footer-pow">Powered by</p>
+          <div class="footer-img-container">
+            <div class="footer-img-1">
+              <img
+                src="./assets/images/ECSO_logo.png"
+                alt="ecso-logo"
+                class="custom-img"
+              />
+            </div>
+            <div class="footer-img-2">
+              <img
+                src="./assets/images/women.png"
+                alt="women-logo"
+                class="custom-img"
+              />
+            </div>
+          </div>
+          <div class="flex-between dot-line pt20 flex-wrap gap10">
+            <div class="flex gap20">
+              <a href="#!">
+                <p class="custom__p">Cookie Policy</p>
+              </a>
+              <a href="#!">
+                <p class="custom__p">Legal Terms</p>
+              </a>
+              <a href="#!">
+                <p class="custom__p">Privacy Policy</p>
+              </a>
+            </div>
+            <div class="flex gap20">
+              <p class="custom__p">Connect us:</p>
+
+              <a href="#!">
+                <p class="custom__p">Email us</p>
+              </a>
+              <a href="#!">
+                <p class="custom__p">Linkedin</p>
+              </a>
+              <a href="#!">
+                <p class="custom__p">X</p>
+              </a>
+            </div>
+            <div class="flex gap20">
+              <p class="custom__p">Design by:</p>
+              <a href="#!">
+                <p class="custom__p">alchemiser.com</p>
+              </a>
+            </div>
+          </div>
+        </footer>
+      </div>
+    </div>
+
+    <!--
+       - custom js link
+    -->
+    <script src="./assets/js/script.js"></script>
+
+    <!--
+       - ionicon link
+    -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>

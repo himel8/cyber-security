@@ -1,0 +1,140 @@
+/*———————————————————————————*\
+   #MOBILE SCREEN CSS
+\*———————————————————————————*/
+@media screen and (max-width: 767px) {
+  .page__container {
+    margin-left: 0px;
+  }
+  .container,
+  .profile-from {
+    padding: 40px 20px;
+  }
+  .custom__h1 {
+    font-size: 30px;
+  }
+  .custom__p.w-200 {
+    width: 100%;
+    text-align: left;
+  }
+  .custom__profile-input,
+  .custom__contact-input .custom__profile-col-input,
+  .custom__contact-col-input {
+    padding: 10px 15px;
+  }
+  .custom__profile-col-input textarea {
+    width: 83% !important;
+    padding: 10px 15px;
+  }
+
+  .custom__contact-col-input textarea {
+    width: 90% !important;
+    padding: 15px 15px;
+  }
+  .custom__contact-name {
+    width: 100px;
+  }
+  .flex-A-center {
+    justify-items: center;
+  }
+  .footer-link-container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .job-list__box {
+    width: 100%;
+  }
+  .job-logo {
+    width: 50px;
+  }
+  .md__center {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .md__wrap {
+    flex-wrap: wrap;
+  }
+  .package-section .flex {
+    justify-content: center;
+    align-items: center;
+  }
+  .pt70 {
+    padding-top: 40px;
+  }
+  .sm__full-width .flex-end {
+    justify-content: flex-start;
+  }
+  .subscribe-section {
+    flex-direction: column;
+    padding: 30px;
+    gap: 20px;
+  }
+  .subscribe-section h6 {
+    text-align: center;
+  }
+  .training-list__box {
+    gap: 40px;
+  }
+  .w-200 {
+    width: 100px;
+    text-align: right;
+    padding-right: 20px;
+  }
+  .w-50 {
+    width: 100%;
+  }
+  .menu-icon-box {
+    display: block;
+    transition: var(--transition-2);
+  }
+  .header__container {
+    margin-left: 0;
+    padding: 0px 20px 0px 20px;
+  }
+  .sidebar {
+    position: fixed;
+    width: 150px;
+    left: 0;
+    top: 0px;
+  }
+  .sidebar.close {
+    width: 0;
+    opacity: 0;
+  }
+  .sm-hidden {
+    display: none;
+  }
+  .menu-icon-box {
+    display: block;
+    transition: var(--transition-2);
+  }
+  .menu-icon {
+    font-size: 30px;
+    color: var(--blue);
+  }
+  .from-container {
+    max-width: 100%;
+  }
+  .inline-input {
+    flex-direction: column;
+    width: 100%;
+  }
+  .inline-input input {
+    width: 74%;
+  }
+}
+
+@media screen and (max-width: 1149px) {
+  .training-list__box,
+  .talent-list__box {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .list-container {
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+}

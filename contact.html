@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--
+       - primary meta tags
+    -->
+    <title>Road2Cyber - Cyber securites App</title>
+    <meta name="title" content="Road2Cyber - Cyber securites App" />
+    <meta
+      name="description"
+      content="Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repudiandae non ab quidem."
+    />
+
+    <!--
+       - favicon
+    -->
+    <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml" />
+
+    <!--
+       - font link
+    -->
+    <link
+      href="https://fonts.cdnfonts.com/css/helvetica-neue-55"
+      rel="stylesheet"
+    />
+
+    <!--
+       - custom css link
+    -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="./assets/css/style.md.css" />
+    <link rel="stylesheet" href="./assets/css/style.sm.css" />
+
+    <!--
+       - preload images
+    -->
+  </head>
+  <body>
+    <!--
+     - #PRELOADER
+    -->
+    <div class="preload" data-preaload>
+      <div class="circle"></div>
+      <div class="text">Road 2 Cyber</div>
+    </div>
+
+    <!--
+       - #TOPBAR
+    -->
+    <header class="flex-between topbar header__container">
+      <div class="logo">
+        <a href="/"
+          ><img
+            src="./assets/images/logo/Road2Cyber horizontal logo.png"
+            alt="logo"
+            class="custom-img"
+        /></a>
+      </div>
+      <div class="flex-between gap20 sm-hidden">
+        <p class="custom__p">Public Website</p>
+        <div class="flex-between gap5">
+          <div class="user-logo">
+            <img
+              src="./assets/images/person.png"
+              alt="user"
+              class="custom-img"
+            />
+          </div>
+          <ion-icon name="chevron-down-outline" class="custom__p"></ion-icon>
+        </div>
+      </div>
+      <div class="menu-icon-box">
+        <ion-icon
+          name="menu-outline"
+          class="menu-icon toggle"
+          id="myIcon"
+        ></ion-icon>
+      </div>
+    </header>
+    <div class="main-container">
+      <nav class="sidebar close">
+        <div class="menu-bar">
+          <div class="menu">
+            <ul class="menu-links">
+              <li class="nav-link" data-page="home">
+                <a href="/index.html">
+                  <img
+                    src="./assets//images/svg/dashboard.svg"
+                    alt="dashboard-icon"
+                  />
+                  <span class="menu-text">Dashboard</span>
+                </a>
+              </li>
+              <li class="nav-link" data-page="profile">
+                <a href="/editprofile.html">
+                  <img
+                    src="./assets//images/svg/person.svg"
+                    alt="person-icon"
+                  />
+                  <span class="menu-text">Profile</span>
+                </a>
+              </li>
+              <li class="nav-link" data-page="training">
+                <a href="/trainings.html">
+                  <img
+                    src="./assets//images/svg/trainings.svg"
+                    alt="trainings-icon"
+                  />
+                  <span class="menu-text">Trainings</span>
+                </a>
+              </li>
+              <li class="nav-link" data-page="jobs">
+                <a href="/jobs.html">
+                  <img src="./assets//images/svg/jobs.svg" alt="jobs-icon" />
+                  <span class="menu-text">Jobs</span>
+                </a>
+              </li>
+              <li class="nav-link" data-page="talentpool">
+                <a href="/talentpool.html">
+                  <img
+                    src="./assets//images/svg/talent.svg"
+                    alt="talent-icon"
+                  />
+                  <span class="menu-text">Talent Pool</span>
+                </a>
+              </li>
+              <li class="nav-link" data-page="package">
+                <a href="/packages.html">
+                  <img
+                    src="./assets//images/svg/packages.svg"
+                    alt="packages-icon"
+                  />
+                  <span class="menu-text">Packages</span>
+                </a>
+              </li>
+              <li class="nav-link" data-page="contact">
+                <a href="/contact.html">
+                  <img
+                    src="./assets//images/svg/contact.svg"
+                    alt="contact-icon"
+                  />
+                  <span class="menu-text">Contact</span>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <div class="full-width">
+        <!--- #HERO-->
+        <section class="hero flex-between container flex-wrap gap20">
+          <div class="flex-between gap20">
+            <div class="hero-user-logo">
+              <img
+                src="./assets/images/person.png"
+                alt="user"
+                class="custom-img"
+              />
+            </div>
+            <div>
+              <h2 class="custom__h1">Giulia Sobinni</h2>
+              <p class="custom__h6 pt20 pb10">Dell</p>
+              <a href="editprofile.html"
+                ><p class="custom__p custom__underline">Edit profile</p></a
+              >
+            </div>
+          </div>
+          <div>
+            <p class="custom__h6">Plus Package</p>
+            <p class="custom__p">
+              8 out of 10 jobs available<br />
+              8 out of 10 trainings available<br />
+              7 out of 10 profiles available to contact
+            </p>
+            <a href="#"
+              ><p class="custom__p custom__underline pt20">
+                Upgrade your plan
+              </p></a
+            >
+          </div>
+          <div class="custom__input">
+            <ion-icon
+              name="search-outline"
+              class="input__icon custom__p"
+            ></ion-icon>
+            <input
+              type="text"
+              placeholder="Search in Talent Pool"
+              class="custom__h6"
+            />
+          </div>
+        </section>
+
+        <!--- #YOUR JOB-->
+        <section class="job-section container">
+          <div class="flex-between-end section-line">
+            <h2 class="custom__h1">Send us your inquiry</h2>
+          </div>
+
+          <div class="from-container pt40 pb20">
+            <form action="">
+              <div class="custom__contact-input">
+                <p class="custom__p font-bold custom__contact-name">Name</p>
+                <input type="text" placeholder="Ex: Doe" />
+              </div>
+              <div class="custom__contact-input">
+                <p class="custom__p font-bold custom__contact-name">Area</p>
+                <div class="select__box">
+                  <select class="custom__select">
+                    <option value="option1">Select here</option>
+                    <option value="option2">Option 2</option>
+                    <option value="option3">Option 3</option></select
+                  ><ion-icon
+                    name="chevron-down-outline"
+                    class="select-icon custom__p"
+                  ></ion-icon>
+                </div>
+              </div>
+              <div class="custom__contact-input">
+                <p class="custom__p font-bold custom__contact-name">Type</p>
+                <div class="select__box">
+                  <select class="custom__select">
+                    <option value="option1">Select here</option>
+                    <option value="option2">Option 2</option>
+                    <option value="option3">Option 3</option></select
+                  ><ion-icon
+                    name="chevron-down-outline"
+                    class="select-icon custom__p"
+                  ></ion-icon>
+                </div>
+              </div>
+              <div class="custom__contact-col-input">
+                <p class="custom__p font-bold custom__contact-name pb10">
+                  Description
+                </p>
+                <textarea
+                  type="text"
+                  placeholder="Type your inquiry here….."
+                  rows="10"
+                ></textarea>
+              </div>
+              <div class="custom__btn-box">
+                <button class="custom-btn custom__p lite-btn">Cancel</button>
+                <button class="custom-btn custom__p open-btn">Send</button>
+              </div>
+            </form>
+          </div>
+        </section>
+
+        <!--
+     - #Subscribe
+  -->
+        <section class="container">
+          <div class="subscribe-section">
+            <h6 class="custom__h6">
+              Stay tuned with the latest trainings and jobs with Road 2 Cyber
+              newsletter
+            </h6>
+            <button class="custom-btn custom__p subs-btn">Subscribe</button>
+          </div>
+        </section>
+
+        <!--
+- #footer
+-->
+        <footer class="container">
+          <div class="footer-link-container">
+            <div class="footer-logo">
+              <img
+                src="./assets/images/logo/Road2Cyber-main-logo.png"
+                alt="footer-logo"
+                class="custom-img"
+              />
+            </div>
+            <div>
+              <a href="#!">
+                <p class="custom__p font-bold">Road 2 Cyber</p>
+              </a>
+              <a href="#!">
+                <p class="custom__p">About Road 2 Cyber</p>
+              </a>
+              <a href="#!">
+                <p class="custom__p">Packages</p>
+              </a>
+              <a href="#!">
+                <p class="custom__p">FAQ</p>
+              </a>
+            </div>
+            <div>
+              <a href="#!">
+                <p class="custom__p font-bold">Trainings in Cyber</p>
+              </a>
+              <a href="#!">
+                <p class="custom__p">Find a training</p>
+              </a>
+              <a href="#!">
+                <p class="custom__p">Post a training</p>
+              </a>
+              <a href="#!">
+                <p class="custom__p">Cyber Ranges</p>
+              </a>
+              <a href="#!">
+                <p class="custom__p">Youth 4 Cyber</p>
+              </a>
+            </div>
+            <div>
+              <a href="#!">
+                <p class="custom__p font-bold">Jobs in Cyber</p>
+              </a>
+              <a href="#!">
+                <p class="custom__p">Find a job</p>
+              </a>
+              <a href="#!">
+                <p class="custom__p">Post a job</p>
+              </a>
+              <a href="#!">
+                <p class="custom__p">Talent pool</p>
+              </a>
+              <a href="#!">
+                <p class="custom__p">Create your profile</p>
+              </a>
+            </div>
+            <div>
+              <a href="#!">
+                <p class="custom__p font-bold">Improve your skills</p>
+              </a>
+              <a href="#!">
+                <p class="custom__p">Resources</p>
+              </a>
+              <a href="#!">
+                <p class="custom__p">Mentorship</p>
+              </a>
+              <a href="#!">
+                <p class="custom__p">Career paths</p>
+              </a>
+            </div>
+          </div>
+          <p class="custom__p font-bold footer-pow">Powered by</p>
+          <div class="footer-img-container">
+            <div class="footer-img-1">
+              <img
+                src="./assets/images/ECSO_logo.png"
+                alt="ecso-logo"
+                class="custom-img"
+              />
+            </div>
+            <div class="footer-img-2">
+              <img
+                src="./assets/images/women.png"
+                alt="women-logo"
+                class="custom-img"
+              />
+            </div>
+          </div>
+          <div class="flex-between dot-line pt20 flex-wrap gap10">
+            <div class="flex gap20">
+              <a href="#!">
+                <p class="custom__p">Cookie Policy</p>
+              </a>
+              <a href="#!">
+                <p class="custom__p">Legal Terms</p>
+              </a>
+              <a href="#!">
+                <p class="custom__p">Privacy Policy</p>
+              </a>
+            </div>
+            <div class="flex gap20">
+              <p class="custom__p">Connect us:</p>
+
+              <a href="#!">
+                <p class="custom__p">Email us</p>
+              </a>
+              <a href="#!">
+                <p class="custom__p">Linkedin</p>
+              </a>
+              <a href="#!">
+                <p class="custom__p">X</p>
+              </a>
+            </div>
+            <div class="flex gap20">
+              <p class="custom__p">Design by:</p>
+              <a href="#!">
+                <p class="custom__p">alchemiser.com</p>
+              </a>
+            </div>
+          </div>
+        </footer>
+      </div>
+    </div>
+
+    <!--- custom js link-->
+    <script src="./assets/js/script.js"></script>
+
+    <!--
+       - ionicon link
+    -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
