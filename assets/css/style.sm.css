@@ -122,6 +122,10 @@
   .inline-input input {
     width: 74%;
   }
+  .training-list__container,
+  .talent-list__container {
+    width: 330px;
+  }
 }
 
 @media screen and (max-width: 1149px) {
