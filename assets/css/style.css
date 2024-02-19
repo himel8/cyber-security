@@ -867,6 +867,7 @@ textarea,
   width: 157px;
   background: var(--blue);
   transition: var(--transition-2);
+  z-index: 999;
 }
 
 .sidebar header {
