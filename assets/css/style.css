@@ -464,6 +464,10 @@ p {
 }
 .menu-icon-box {
   display: none;
+  z-index: 999;
+}
+.menu-icon-box ion-icon[name="close-outline"] {
+  color: white;
 }
 /*———————————————————————————*\
    #HERO
