@@ -143,7 +143,8 @@ html {
 body {
   background-color: var(--white);
   font-family: var(--fontFamily-helvetica);
-  max-width: 1399px;
+  /* max-width: 1399px; */
+  max-width: 100%;
   margin: auto;
 }
 
@@ -868,8 +869,12 @@ textarea,
   background: var(--blue);
   transition: var(--transition-2);
   z-index: 999;
+  position: relative;
 }
-
+.menu-bar {
+  position: sticky;
+  top: 0;
+}
 .sidebar header {
   position: relative;
 }
