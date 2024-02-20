@@ -107,6 +107,10 @@
     width: 100%;
     position: relative;
   }
+  .menu-icon-box ion-icon[name="close-outline"] {
+    position: fixed;
+    right: 15px;
+  }
   .sidebar.close {
     width: 0;
     opacity: 0;
