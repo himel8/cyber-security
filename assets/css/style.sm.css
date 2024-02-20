@@ -109,6 +109,7 @@
   }
   .menu-icon-box ion-icon[name="close-outline"] {
     position: fixed;
+    top: 15px;
     right: 15px;
   }
   .sidebar.close {
